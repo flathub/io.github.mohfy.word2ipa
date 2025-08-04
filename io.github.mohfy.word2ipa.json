@@ -44,7 +44,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mohfy/word2ipa.git",
-                    "commit": "c819a69a5768c2d2a9aa2625891a862c28b9f7f6"
+                    "commit": "b3dbf422a3114beaff2cf52cfdc6c5521870840f"
                 }
             ]
         }
