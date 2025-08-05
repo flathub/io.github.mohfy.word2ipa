@@ -5,19 +5,11 @@
     "sdk": "org.gnome.Sdk",
     "command": "word2ipa",
     "finish-args": [
-        "--filesystem=xdg-config/word2ipa:create",
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
-    "metadata": {
-        "x-flathub": {
-            "exceptions": [
-                "finish-args-unnecessary-xdg-config-word2ipa-create-access"
-            ]
-        }
-    },
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
