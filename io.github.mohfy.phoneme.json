@@ -1,9 +1,9 @@
 {
-    "id": "io.github.mohfy.word2ipa",
+    "id": "io.github.mohfy.phoneme",
     "runtime": "org.gnome.Platform",
     "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
-    "command": "word2ipa",
+    "command": "phoneme",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -37,17 +37,16 @@
             ]
         },
         {
-            "name": "word2ipa",
+            "name": "phoneme",
             "builddir": true,
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/mohfy/word2ipa.git",
-                    "commit": "fd1d7da9fb6c77c934cb95ef927147cc844ffd06"
+                    "url": "https://github.com/mohfy/phoneme.git",
+                    "commit": "14981956e8f57ce5a85473edbfad86568dd0d7b1"
                 }
             ]
         }
     ]
 }
-
